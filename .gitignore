@@ -1,0 +1,26 @@
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual env
+.env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Checkpoints and models
+*.ckpt
+*.ckpt.*
+*.h5
+*.pb
+*.keras
+*.tflite
+
+# Generated files
+/outputs/
